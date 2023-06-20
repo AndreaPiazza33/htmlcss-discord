@@ -56,7 +56,19 @@
 header {
   padding: 1.5rem 0;
 }
-
+.bordered-header{
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  border-radius: 20px;
+  padding: 5px;
+}
+.header-link{
+  text-decoration: none;
+  color: var(--white);
+}
+div > i {
+  color: var(--white);
+}
 /* # JUMBOTRON */
 
 .jumbotron {
@@ -65,6 +77,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../img/jumbo.png);
 }
 
 .jumbotron > .container {
