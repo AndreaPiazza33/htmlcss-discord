@@ -151,13 +151,11 @@ main p{
   background-color: var(--darkgray);
 }
 
-.footer-top {
-  border: 1px solid var(--gray);
-}
 
 .footer-top,
 .footer-bottom {
   padding: 2rem 0;
+  margin: 0 50px;
 }
 
 .footer-bottom > .container > * {
@@ -172,8 +170,14 @@ main p{
   width: 30%;
 }
 
+
 .col-25 {
   width: 25%;
+}
+span img{
+  width: 20px;
+  height: 13px;
+  margin-right: 2px;
 }
 .li-text{
   color: var(--white);
@@ -181,6 +185,10 @@ main p{
 }
 .footer-title-text{
   color: var(--azure);
+  margin-bottom: 10px;
+}
+footer li{
+  line-height: 30px;
 }
 
 /* ! DEBUG */
