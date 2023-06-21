@@ -60,22 +60,21 @@ header {
 .bordered-header{
   background-color: var(--white);
   border: 1px solid var(--white);
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 30px;
+  padding: 10px;
   color: var(--black);
+  margin-top: 30px;
 }
 .darkbordered-header{
   background-color: var(--black);
   border: 1px solid var(--black);
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 30px;
+  padding: 10px;
   color: var(--white);
+  margin-top: 30px;
 }
 .header-link{
   text-decoration: none;
-  color: var(--white);
-}
-div > i {
   color: var(--white);
 }
 
@@ -98,6 +97,10 @@ div > i {
 .jumbotron > .container {
   width: 50%;
   min-height: 250px;
+}
+.jumbotron h2{
+  font-size: 45px;
+  margin-bottom: 40px;
 }
 
 /* # SECTIONS */
@@ -124,8 +127,8 @@ section.bg-gray {
 .bordered-section{
   background-color: var(--cyan);
   border: 1px solid var(--cyan);
-  border-radius: 20px;
-  padding: 5px;
+  border-radius: 30px;
+  padding: 10px;
   color: var(--white);
 }
 .center-text-section{
@@ -171,13 +174,13 @@ section.bg-gray {
 
 /* ! DEBUG */
 
-.debug .bordered {
+/*.debug .bordered {
   border: 2px dashed var(--black);
-}
+}*/
 
-.debug .bordered-white {
+/*.debug .bordered-white {
   border: 2px dashed var(--white);
-}
+}*/
 
 /*.debug .bg-cyan {
   background-color: var(--cyan);
