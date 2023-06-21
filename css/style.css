@@ -123,6 +123,17 @@ section.bg-gray {
 
 .small-col {
   width: 40%;
+  padding-top: 50px;
+}
+main h2{
+  font-size: 45px;
+}
+main h3{
+  font-size: 25px;
+}
+main p{
+  line-height: 30px;
+  font-weight: bolder;
 }
 .bordered-section{
   background-color: var(--cyan);
