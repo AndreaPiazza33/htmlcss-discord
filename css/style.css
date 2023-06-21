@@ -55,7 +55,7 @@
 
 header {
   padding: 1.5rem 0;
-  background-image: url(../img/jumbo.png);
+  background-color: #255ee9;
 }
 .bordered-header{
   background-color: var(--white);
@@ -121,7 +121,13 @@ section.bg-gray {
 .small-col {
   width: 40%;
 }
-
+.bordered-section{
+  background-color: var(--cyan);
+  border: 1px solid var(--cyan);
+  border-radius: 20px;
+  padding: 5px;
+  color: var(--white);
+}
 /* # FOOTER */
 
 .bg-darkgray {
@@ -163,20 +169,20 @@ section.bg-gray {
   border: 2px dashed var(--white);
 }
 
-.debug .bg-cyan {
+/*.debug .bg-cyan {
   background-color: var(--cyan);
   min-height: 50px;
-}
+}*/
 
 /*.debug .bg-golden {
   background-color: var(--golden);
   min-height: 50px;
 }*/
 
-.debug .bg-blue {
+/*.debug .bg-blue {
   background-color: var(--blue);
-  /* min-height: 50px; */
-}
+  /* min-height: 50px;
+}*/
 
 .debug .bg-fuchsia {
   background-color: var(--fuchsia);
@@ -188,10 +194,10 @@ section.bg-gray {
   min-height: 50px;
 }
 
-.debug .bg-pink {
+/*.debug .bg-pink {
   background-color: var(--pink);
   min-height: 50px;
-}
+}*/
 
 .debug .bg-green {
   background-color: var(--green);
@@ -223,4 +229,5 @@ section.bg-gray {
 
 .debug .taller {
   min-height: 600px;
+  text-align: center;
 }
