@@ -63,7 +63,6 @@ header {
   border-radius: 30px;
   padding: 10px;
   color: var(--black);
-  margin-top: 30px;
 }
 .darkbordered-header{
   background-color: var(--black);
@@ -131,9 +130,13 @@ main h2{
 main h3{
   font-size: 25px;
 }
+
 main p{
   line-height: 30px;
   font-weight: bolder;
+}
+main svg{
+  color: var(--gray);
 }
 .bordered-section{
   background-color: var(--cyan);
@@ -189,6 +192,10 @@ span img{
 }
 footer li{
   line-height: 30px;
+}
+footer i{
+  margin-top: 10px;
+  margin-right: 5px;
 }
 
 /* ! DEBUG */
